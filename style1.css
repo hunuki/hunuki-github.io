@@ -1,0 +1,26 @@
+#global {
+    width: 500px;
+    height: 500px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    margin: auto;
+    padding: 50px 60px 50px 60px;
+}
+
+#content {
+    font-family: 'Lato', sans-serif;
+    color: #111;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    letter-spacing: -1px;
+    line-height: 10px;
+}
+* {
+    box-sizing: border-box;
+}

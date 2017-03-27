@@ -102,6 +102,7 @@ div {
 .content {
   background-color: #fff;
   height: 650px;
+  clear: both;
 }
 
 .par {
@@ -113,6 +114,7 @@ div {
   width: 50px;
   float: left;
   position: relative;
+  background-color: #666;
 }
 
 .par_title {
@@ -131,5 +133,5 @@ div {
 }
 
 .footer {
-
+  clear: both;
 }

@@ -102,7 +102,27 @@ div {
 .content {
   background-color: #fff;
   height: 650px;
+}
 
+.par {
+  float: left;
+  position: relative;
+}
+
+.par_title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  position: releative;
+  margin: 20px;
+}
+
+.article {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  position: releative;
+  margin: 0 20px 20px 20px;
 }
 
 .footer {

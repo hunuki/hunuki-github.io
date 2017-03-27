@@ -107,8 +107,12 @@ div {
 .par {
   float: left;
   position: relative;
-  margin: 30px;
-  width: 35%;
+}
+
+.column {
+  width: 50px;
+  float: left;
+  position: relative;
 }
 
 .par_title {
@@ -124,7 +128,6 @@ div {
   font-weight: 300;
   font-size: 14px;
   position: releative;
-  margin-bottom: 20px;
 }
 
 .footer {

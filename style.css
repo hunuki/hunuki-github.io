@@ -108,6 +108,7 @@ div {
 .par {
   float: left;
   position: relative;
+  overflow: auto;
 }
 
 .column {
@@ -115,6 +116,7 @@ div {
   float: left;
   position: relative;
   background-color: #666;
+  overflow: auto;
 }
 
 .par_title {

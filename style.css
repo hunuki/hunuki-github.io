@@ -107,6 +107,8 @@ div {
 .par {
   float: left;
   position: relative;
+  margin: 30px;
+  width: 20%;
 }
 
 .par_title {
@@ -114,7 +116,7 @@ div {
   font-weight: 700;
   font-size: 18px;
   position: releative;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .article {

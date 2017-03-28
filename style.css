@@ -102,16 +102,20 @@ div {
   background-color: #fff;
   clear: both;
   display: flex;
+  height: 500px;
+  padding: 10px;
 }
 
 .par {
   float: left;
+  width: 100%;
   position: relative;
   overflow: auto;
+  display: block;
 }
 
 .column {
-  width: 50px;
+  width: 70px;
   float: left;
   position: relative;
   overflow: auto;
@@ -120,16 +124,17 @@ div {
 .par_title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 28px;
   position: releative;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .article {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 20px;
   position: releative;
   margin-bottom: 40px;
 }

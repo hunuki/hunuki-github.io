@@ -101,8 +101,8 @@ div {
 
 .content {
   background-color: #fff;
-  height: 650px;
   clear: both;
+  display: flex;
 }
 
 .par {
@@ -115,7 +115,6 @@ div {
   width: 50px;
   float: left;
   position: relative;
-  background-color: #666;
   overflow: auto;
 }
 
@@ -124,6 +123,7 @@ div {
   font-weight: 700;
   font-size: 18px;
   position: releative;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -132,6 +132,7 @@ div {
   font-weight: 300;
   font-size: 14px;
   position: releative;
+  margin-bottom: 40px;
 }
 
 .footer {

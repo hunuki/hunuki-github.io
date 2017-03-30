@@ -23,7 +23,6 @@ div {
   height: 90px;
   margin: 0px auto 7px auto;
   padding: 20px 25px;
-  position: relative;
 }
 
 .title {
@@ -61,7 +60,6 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 70%;
-  position: relative;
   overflow: hidden;
   padding: 85px 0 0 50px;
   margin-bottom: 7px;
@@ -85,7 +83,7 @@ div {
   color: #fff;
   opacity: 0.95;
   margin-left: 4px;
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 0.5px;
 }
 
@@ -95,7 +93,7 @@ div {
   font-size: 56px;
   color: #fff;
   width: auto;
-  position: relative;
+  margin: 0;
 }
 
 .section {
@@ -104,29 +102,25 @@ div {
   display: flex;
   height: 500px;
   padding: 10px;
+  margin-bottom: 7px;
 }
 
 .par {
   float: left;
   width: 100%;
-  position: relative;
-  overflow: auto;
   display: block;
+  margin-top: 20px;
 }
 
 .column {
   width: 70px;
   float: left;
-  position: relative;
-  overflow: auto;
 }
 
 .par_title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 28px;
-  position: releative;
-  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -135,10 +129,22 @@ div {
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
-  position: releative;
   margin-bottom: 40px;
 }
 
 .footer {
   clear: both;
+  height: 60px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 60px;
+  background-color: white;
+}
+
+.frame {
+  margin-bottom: 10px;
+}
+
+.frame_image {
+  width: 100%;
 }

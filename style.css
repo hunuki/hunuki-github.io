@@ -54,7 +54,7 @@ div {
   
 }
 
-.hero {
+.header {
   height: 450px;
   background-image: url('http://wallpapercraft.net/wp-content/uploads/2016/08/Computer-Images-Full-HD-For-Desktop.jpg');
   background-color: #333;
@@ -98,7 +98,7 @@ div {
   position: relative;
 }
 
-.content {
+.section {
   background-color: #fff;
   clear: both;
   display: flex;

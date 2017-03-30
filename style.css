@@ -100,7 +100,6 @@ div {
   background-color: #fff;
   clear: both;
   display: flex;
-  height: 500px;
   padding: 10px;
   margin-bottom: 7px;
 }
@@ -133,9 +132,12 @@ div {
 }
 
 .footer {
+  font-family: 'Roboto', sans-serif;
   clear: both;
   height: 60px;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
   text-align: center;
   line-height: 60px;
   background-color: white;
